@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>MeTrade Application</title>
+</head>
+<body>
+	<h1>Welcome to MeTrade</h1>
+	<br>
+	<h2>Please create new user.</h2>
+	<form method="post" action="CreateUserServlet">
+		<label for="name">Username:</label> <input type="text" id="username"
+			name="username"><br> <br>
+		<button type="submit">Create user.</button>
+	</form>
+	<h2>Or you can remove a user.</h2>
+	<form method="post" action="RemoveUserServlet">
+		<label for="name">Username to remove:</label> <input type="text"
+			id="removeUser" name="removeUser"><br> <br>
+		<button type="submit">Remove user.</button>
+	</form>
+	<h2>Add a stock to your portfolio.</h2>
+	<form method="post" action="AddStockServlet">
+		<label for="name">Your username:</label> <input type="text"
+			id="username" name="username"><br> <br> 
+		<label for="ticker">Ticker Symbol:</label> <input type="text" id="ticker"
+			name="ticker"> <br> <br>
+		<label for="price">Price paid:</label> <input type="text" id="price"
+			name="price"> <br> <br>
+		<label for="quantity">Quantity:</label> <input type="text" id="qty"
+			name="qty"> <br> <br>
+		<button type="submit">Add Stock.</button>
+	</form>
+	<h2>Remove a stock from your portfolio.</h2>
+	<form method="post" action="RemoveStockServlet">
+		<label for="name">Your username:</label> <input type="text"
+			id="username" name="username"> <br> <br>
+		<label for="ticker">Stock to remove:</label> <input type="text"
+			id="ticker" name="ticker"> <br> <br>
+		<button type="submit">Remove Stock.</button>
+	</form>
+</body>
+</html>

@@ -1,0 +1,74 @@
+DEBUG	2020-02-13 21:29:54,319	0	com.phillippascual.util.ConnectionUtil	[main]	Attempting connection to DB.
+DEBUG	2020-02-13 21:29:54,585	266	com.phillippascual.util.ConnectionUtil	[main]	Connection successful.
+DEBUG	2020-02-14 12:02:34,553	1	com.phillippascual.util.ConnectionUtil	[main]	Attempting connection to DB.
+DEBUG	2020-02-14 12:02:34,659	107	com.phillippascual.util.ConnectionUtil	[main]	Connection successful.
+DEBUG	2020-02-14 12:05:44,196	0	com.phillippascual.util.ConnectionUtil	[main]	Attempting connection to DB.
+DEBUG	2020-02-14 12:05:44,295	99	com.phillippascual.util.ConnectionUtil	[main]	Connection successful.
+DEBUG	2020-02-14 12:13:27,672	0	com.phillippascual.util.ConnectionUtil	[main]	Attempting connection to DB.
+DEBUG	2020-02-14 12:13:27,868	196	com.phillippascual.util.ConnectionUtil	[main]	Connection successful.
+DEBUG	2020-02-14 12:14:36,882	0	com.phillippascual.util.ConnectionUtil	[main]	Attempting connection to DB.
+DEBUG	2020-02-14 12:14:36,978	96	com.phillippascual.util.ConnectionUtil	[main]	Connection successful.
+DEBUG	2020-02-14 12:15:04,422	0	com.phillippascual.util.ConnectionUtil	[main]	Attempting connection to DB.
+DEBUG	2020-02-14 12:15:04,518	96	com.phillippascual.util.ConnectionUtil	[main]	Connection successful.
+DEBUG	2020-02-14 12:24:31,320	0	com.phillippascual.util.ConnectionUtil	[main]	Attempting connection to DB.
+DEBUG	2020-02-14 12:24:31,417	97	com.phillippascual.util.ConnectionUtil	[main]	Connection successful.
+DEBUG	2020-02-14 12:24:31,437	117	com.phillippascual.repository.UserRepository	[main]	User created and added to database.
+DEBUG	2020-02-14 12:46:57,015	0	com.phillippascual.util.ConnectionUtil	[main]	Attempting connection to DB.
+DEBUG	2020-02-14 12:46:57,111	96	com.phillippascual.util.ConnectionUtil	[main]	Connection successful.
+DEBUG	2020-02-14 12:46:57,115	100	com.phillippascual.repository.UserRepository	[main]	User test removed from database.
+DEBUG	2020-02-14 12:46:57,139	124	com.phillippascual.repository.UserRepository	[main]	User test created and added to database.
+DEBUG	2020-02-14 12:47:55,033	0	com.phillippascual.util.ConnectionUtil	[main]	Attempting connection to DB.
+DEBUG	2020-02-14 12:47:55,128	95	com.phillippascual.util.ConnectionUtil	[main]	Connection successful.
+DEBUG	2020-02-14 12:47:55,135	102	com.phillippascual.repository.UserRepository	[main]	User test removed from database.
+DEBUG	2020-02-14 12:47:55,158	125	com.phillippascual.repository.UserRepository	[main]	User test created and added to database.
+DEBUG	2020-02-14 14:21:02,416	0	com.phillippascual.util.ConnectionUtil	[main]	Attempting connection to DB.
+DEBUG	2020-02-14 14:21:02,511	95	com.phillippascual.util.ConnectionUtil	[main]	Connection successful.
+DEBUG	2020-02-14 14:21:02,515	99	com.phillippascual.repository.UserRepository	[main]	User test removed from database.
+DEBUG	2020-02-14 14:21:02,526	110	com.phillippascual.repository.UserRepository	[main]	User test created and added to database.
+DEBUG	2020-02-14 14:21:53,549	0	com.phillippascual.util.ConnectionUtil	[main]	Attempting connection to DB.
+DEBUG	2020-02-14 14:21:53,647	98	com.phillippascual.util.ConnectionUtil	[main]	Connection successful.
+DEBUG	2020-02-14 14:21:53,651	102	com.phillippascual.repository.UserRepository	[main]	User test2 removed from database.
+DEBUG	2020-02-14 14:21:53,661	112	com.phillippascual.repository.UserRepository	[main]	User test created and added to database.
+DEBUG	2020-02-14 14:22:51,778	0	com.phillippascual.util.ConnectionUtil	[main]	Attempting connection to DB.
+DEBUG	2020-02-14 14:22:51,881	103	com.phillippascual.util.ConnectionUtil	[main]	Connection successful.
+DEBUG	2020-02-14 14:22:51,887	109	com.phillippascual.repository.UserRepository	[main]	User test2 created and added to database.
+DEBUG	2020-02-14 14:22:51,888	110	com.phillippascual.repository.UserRepository	[main]	User test2 removed from database.
+DEBUG	2020-02-14 14:22:51,896	118	com.phillippascual.repository.UserRepository	[main]	User test created and added to database.
+DEBUG	2020-02-14 15:02:30,563	1	com.phillippascual.util.ConnectionUtil	[main]	Attempting connection to DB.
+DEBUG	2020-02-14 15:02:30,660	98	com.phillippascual.util.ConnectionUtil	[main]	Connection successful.
+DEBUG	2020-02-14 15:02:30,668	106	com.phillippascual.repository.UserRepository	[main]	User test2 created and added to database.
+DEBUG	2020-02-14 15:02:30,670	108	com.phillippascual.repository.UserRepository	[main]	User test2 removed from database.
+DEBUG	2020-02-14 15:02:30,688	126	com.phillippascual.repository.UserRepository	[main]	User test created and added to database.
+DEBUG	2020-02-14 15:03:12,519	1	com.phillippascual.util.ConnectionUtil	[main]	Attempting connection to DB.
+DEBUG	2020-02-14 15:03:12,633	115	com.phillippascual.util.ConnectionUtil	[main]	Connection successful.
+DEBUG	2020-02-14 15:03:12,640	122	com.phillippascual.repository.UserRepository	[main]	User testUser created and added to database.
+DEBUG	2020-02-14 15:09:23,526	0	com.phillippascual.util.ConnectionUtil	[main]	Attempting connection to DB.
+DEBUG	2020-02-14 15:09:23,624	98	com.phillippascual.util.ConnectionUtil	[main]	Connection successful.
+DEBUG	2020-02-14 15:09:23,631	105	com.phillippascual.repository.UserRepository	[main]	User testUser created and added to database.
+DEBUG	2020-02-14 15:10:11,946	0	com.phillippascual.util.ConnectionUtil	[main]	Attempting connection to DB.
+DEBUG	2020-02-14 15:10:12,142	196	com.phillippascual.util.ConnectionUtil	[main]	Connection successful.
+DEBUG	2020-02-14 15:10:12,150	204	com.phillippascual.repository.UserRepository	[main]	User testUser created and added to database.
+DEBUG	2020-02-14 15:10:41,228	0	com.phillippascual.util.ConnectionUtil	[main]	Attempting connection to DB.
+DEBUG	2020-02-14 15:10:41,323	95	com.phillippascual.util.ConnectionUtil	[main]	Connection successful.
+DEBUG	2020-02-14 15:10:41,330	102	com.phillippascual.repository.UserRepository	[main]	User testUser created and added to database.
+DEBUG	2020-02-14 15:11:11,891	0	com.phillippascual.util.ConnectionUtil	[main]	Attempting connection to DB.
+DEBUG	2020-02-14 15:11:11,985	94	com.phillippascual.util.ConnectionUtil	[main]	Connection successful.
+DEBUG	2020-02-14 15:11:11,992	101	com.phillippascual.repository.UserRepository	[main]	User testUser created and added to database.
+DEBUG	2020-02-14 15:13:07,426	0	com.phillippascual.util.ConnectionUtil	[main]	Attempting connection to DB.
+DEBUG	2020-02-14 15:13:07,525	99	com.phillippascual.util.ConnectionUtil	[main]	Connection successful.
+DEBUG	2020-02-14 15:13:07,529	103	com.phillippascual.repository.UserRepository	[main]	User testUser created and added to database.
+DEBUG	2020-02-14 15:13:23,664	0	com.phillippascual.util.ConnectionUtil	[main]	Attempting connection to DB.
+DEBUG	2020-02-14 15:13:23,771	107	com.phillippascual.util.ConnectionUtil	[main]	Connection successful.
+DEBUG	2020-02-14 15:13:23,776	112	com.phillippascual.repository.UserRepository	[main]	User testUser created and added to database.
+DEBUG	2020-02-14 15:13:23,780	116	com.phillippascual.repository.StockRepository	[main]	Stock TEST added to testUser portfolio.
+DEBUG	2020-02-14 15:30:17,974	0	com.phillippascual.util.ConnectionUtil	[main]	Attempting connection to DB.
+DEBUG	2020-02-14 15:30:18,083	109	com.phillippascual.util.ConnectionUtil	[main]	Connection successful.
+DEBUG	2020-02-14 15:30:18,089	115	com.phillippascual.repository.UserRepository	[main]	User testUser created and added to database.
+DEBUG	2020-02-14 15:30:18,093	119	com.phillippascual.repository.StockRepository	[main]	Stock TEST added to testUser portfolio.
+DEBUG	2020-02-14 15:30:29,752	0	com.phillippascual.util.ConnectionUtil	[main]	Attempting connection to DB.
+DEBUG	2020-02-14 15:30:29,949	197	com.phillippascual.util.ConnectionUtil	[main]	Connection successful.
+DEBUG	2020-02-14 15:30:29,954	202	com.phillippascual.repository.UserRepository	[main]	User testUser2 created and added to database.
+DEBUG	2020-02-14 15:30:29,958	206	com.phillippascual.repository.StockRepository	[main]	Stock TEST2 added to testUser2 portfolio.
+DEBUG	2020-02-14 15:30:29,959	207	com.phillippascual.repository.StockRepository	[main]	Stock TEST2belonging to testUser2 removed from portfolio.
+DEBUG	2020-02-14 15:30:29,981	229	com.phillippascual.repository.UserRepository	[main]	User testUser created and added to database.
+DEBUG	2020-02-14 15:30:29,983	231	com.phillippascual.repository.StockRepository	[main]	Stock TEST added to testUser portfolio.
