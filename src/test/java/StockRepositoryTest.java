@@ -21,6 +21,17 @@ public class StockRepositoryTest {
 	}
 	
 	@Test
+	public void updateStockPricesTest_returnsEqual() {
+		String username = "testUser3";
+		String ticker = "AMZN";
+		double price = 0.00;
+		int qty = 1;
+		UserRepository.insertNewUser(username, conn);
+		StockRepository.addStock(username, ticker, price, qty, conn);
+		assertEquals(StockRepository.updateStockPrices(conn), 1);
+	}
+	
+	@Test
 	public void removeStockTest_returnsEqual() {
 		String username = "testUser2";
 		String ticker = "TEST2";
