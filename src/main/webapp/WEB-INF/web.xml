@@ -49,4 +49,14 @@
     <servlet-name>RemoveStockServlet</servlet-name>
     <url-pattern>/RemoveStockServlet</url-pattern>
   </servlet-mapping>
+  <servlet>
+    <description></description>
+    <display-name>UpdateStocksServlet</display-name>
+    <servlet-name>UpdateStocksServlet</servlet-name>
+    <servlet-class>com.phillippascual.servlet.UpdateStocksServlet</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>UpdateStocksServlet</servlet-name>
+    <url-pattern>/UpdateStocksServlet</url-pattern>
+  </servlet-mapping>
 </web-app>
