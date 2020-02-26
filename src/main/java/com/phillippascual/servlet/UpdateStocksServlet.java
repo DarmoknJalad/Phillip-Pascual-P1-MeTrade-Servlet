@@ -12,31 +12,19 @@ import com.phillippascual.repository.StockRepository;
 import com.phillippascual.util.ConnectionUtil;
 
 /**
- * Servlet implementation class UpdateStocksServlet
+ * UpdateStockServlet receives an empty GET request from the client.  It then instantiates a database connection and
+ * invokes the StockRepository.updateStockPrices(), passing in the Connection it just instantiated.  It then returns
+ * a message to the client stating that all portfolios have been updated.
  */
 public class UpdateStocksServlet extends HttpServlet {
 	private static final long serialVersionUID = 1L;
        
-    /**
-     * @see HttpServlet#HttpServlet()
-     */
-    public UpdateStocksServlet() {
-        super();
-        // TODO Auto-generated constructor stub
-    }
-
-	/**
-	 * @see HttpServlet#doGet(HttpServletRequest request, HttpServletResponse response)
-	 */
 	protected void doGet(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
 		Connection conn = ConnectionUtil.getConnection();
 		StockRepository.updateStockPrices(conn);
-		response.getWriter().append("Served at: ").append(request.getContextPath());
+		response.getWriter().append("Stock portfolios updated.");
 	}
 
-	/**
-	 * @see HttpServlet#doPost(HttpServletRequest request, HttpServletResponse response)
-	 */
 	protected void doPost(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
 		// TODO Auto-generated method stub
 		doGet(request, response);

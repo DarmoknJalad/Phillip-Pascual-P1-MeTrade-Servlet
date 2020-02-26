@@ -12,7 +12,9 @@ import com.phillippascual.repository.StockRepository;
 import com.phillippascual.util.ConnectionUtil;
 
 /**
- * Servlet implementation class AddStockServlet
+ * Servlet implementation class AddStockServlet.  The servlet receives a POST request.  It retrieves the parameters
+ * "username," ticker," "price," and "qty" from the request, and then instantiates a JDBC connection.  It then calls
+ * the StockRepository Class method addStock().
  */
 public class AddStockServlet extends HttpServlet {
 	private static final long serialVersionUID = 1L;

@@ -11,6 +11,11 @@ import javax.servlet.http.HttpServletResponse;
 import com.phillippascual.repository.StockRepository;
 import com.phillippascual.util.ConnectionUtil;
 
+/**
+ * The RemoveStockServlet takes in a POST request from the client with the appropriate parameters.  The doPost() method
+ * then retrieves the parameters "username" and "ticker" and then instantiates a JDBC connection.  It then passes
+ * these parameters and the Connection to the StockRepository.removeStock() method.
+ */
 public class RemoveStockServlet extends HttpServlet {
 	private static final long serialVersionUID = 1L;
 
